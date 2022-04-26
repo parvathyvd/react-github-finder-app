@@ -35,7 +35,7 @@ const UserDetail = () => {
             href={user.html_url}
             className="btn-profile"
             target="_blank"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Visit Gitbub Profile
           </a>

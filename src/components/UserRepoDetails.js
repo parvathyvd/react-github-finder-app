@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const UserRepoDetails = ({ repo }) => {
   return (
     <>
       <div className="repo-names">
-        <a href={repo.html_url} target="_blank" rel="noopener">
+        <a href={repo.html_url} target="_blank" rel="noreferrer">
           {repo.name}
         </a>
       </div>
